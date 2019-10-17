@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:/home/users/saikai/Project/Autonomous_Vehicle_Driving/systems/src/xdc/PYNQ-Z1_C.xdc rfile:../../../../src/xdc/PYNQ-Z1_C.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:/home/users/naofumi/M1/FPT2019_FPGA_Design_Competition/systems_repo/systems/src/xdc/PYNQ-Z1_C.xdc rfile:../../../../src/xdc/PYNQ-Z1_C.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:8 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict {PACKAGE_PIN H16 IOSTANDARD LVCMOS33} [get_ports clk]
 set_property src_info {type:XDC file:1 line:13 export:INPUT save:INPUT read:READ} [current_design]
@@ -39,6 +39,18 @@ set_property src_info {type:XDC file:1 line:43 export:INPUT save:INPUT read:READ
 set_property -dict {PACKAGE_PIN Y16 IOSTANDARD LVCMOS33} [get_ports CAM_SDA]
 set_property src_info {type:XDC file:1 line:44 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict {PACKAGE_PIN Y17 IOSTANDARD LVCMOS33} [get_ports CAM_SCL]
+set_property src_info {type:XDC file:1 line:52 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN W14 IOSTANDARD LVCMOS33} [get_ports {mipi_phy_if_data_hs_n[1]}]; # MIPI_LANE1_N
+set_property src_info {type:XDC file:1 line:53 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN Y14 IOSTANDARD LVCMOS33} [get_ports {mipi_phy_if_data_hs_p[1]}]; # MIPI_LANE1_P
+set_property src_info {type:XDC file:1 line:54 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN T11 IOSTANDARD LVCMOS33} [get_ports {mipi_phy_if_data_hs_n[0]}]; # MIPI_LANE0_N
+set_property src_info {type:XDC file:1 line:55 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN T10 IOSTANDARD LVCMOS33} [get_ports {mipi_phy_if_data_hs_p[0]}]; # MIPI_LANE0_P
+set_property src_info {type:XDC file:1 line:56 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN V16 IOSTANDARD LVCMOS33} [get_ports mipi_phy_if_clk_hs_n]; # MIPI_CLK_N
+set_property src_info {type:XDC file:1 line:57 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN W16 IOSTANDARD LVCMOS33} [get_ports mipi_phy_if_clk_hs_p]; # MIPI_CLK_P
 set_property src_info {type:XDC file:1 line:131 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict {PACKAGE_PIN U7 IOSTANDARD LVCMOS33} [get_ports pulse1]
 set_property src_info {type:XDC file:1 line:133 export:INPUT save:INPUT read:READ} [current_design]

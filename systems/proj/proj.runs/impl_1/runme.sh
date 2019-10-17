@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/users/saikai/Project/Autonomous_Vehicle_Driving/systems/proj/proj.runs/impl_1'
+HD_PWD='/home/users/naofumi/M1/FPT2019_FPGA_Design_Competition/systems_repo/systems/proj/proj.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

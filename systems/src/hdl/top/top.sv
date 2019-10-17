@@ -3,15 +3,19 @@
 // top module 
 module top
   (
-   input wire        clk,
-   input wire [1:0]  sw,
-   input wire [3:0]  btn,
+   input  wire       clk,
+   input  wire [1:0] sw,
+   input  wire [3:0] btn,
+   input  wire [1:0] mipi_phy_if_data_hs_n,
+   input  wire [1:0] mipi_phy_if_data_hs_p,
+   input  wire       mipi_phy_if_clk_hs_n,
+   input  wire       mipi_phy_if_clk_hs_p,
    output wire [5:0] led_out,
    output wire       pulse1,
    output wire       pulse2,
    output wire       CAM_PWUP,
-   inout wire CAM_SCL,
-   inout wire CAM_SDA
+   inout  wire       CAM_SCL,
+   inout  wire       CAM_SDA
    );
 
    localparam integer CLOCK_FREQ = 125 * 10 ** 6; // system clock of 125 MHz

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<webTalkData  fileName='usage_statistics_webtalk.xml'  majorVersion='1' minorVersion='0' timeStamp='Mon Sep 30 01:56:40 2019'>
+<webTalkData  fileName='usage_statistics_webtalk.xml'  majorVersion='1' minorVersion='0' timeStamp='Thu Oct 17 13:50:14 2019'>
 <section name="__ROOT__" level="0" order="1" description="">
  <section name="software_version_and_target_device" level="1" order="1" description="">
   <keyValuePair key="beta" value="FALSE" description="" />
   <keyValuePair key="build_version" value="2405991" description="" />
-  <keyValuePair key="date_generated" value="Mon Sep 30 01:56:40 2019" description="" />
+  <keyValuePair key="date_generated" value="Thu Oct 17 13:50:14 2019" description="" />
   <keyValuePair key="os_platform" value="LIN64" description="" />
   <keyValuePair key="product_version" value="Vivado v2018.3 (64-bit)" description="" />
   <keyValuePair key="project_id" value="523eff025cee4e35ba1894cc8f7f7376" description="" />
-  <keyValuePair key="project_iteration" value="3" description="" />
-  <keyValuePair key="random_id" value="fbd6b83aad0b54e48c722036c9ee1f16" description="" />
+  <keyValuePair key="project_iteration" value="4" description="" />
+  <keyValuePair key="random_id" value="da860c7275be5da89fb6a8056154cfe7" description="" />
   <keyValuePair key="registration_id" value="174123905_174123906_210698817_308" description="" />
   <keyValuePair key="route_design" value="TRUE" description="" />
   <keyValuePair key="target_device" value="xc7z020" description="" />
@@ -19,12 +19,12 @@
   <keyValuePair key="tool_flow" value="Vivado" description="" />
  </section>
  <section name="user_environment" level="1" order="2" description="">
-  <keyValuePair key="cpu_name" value="Intel(R) Xeon(R) CPU E5-2687W v4 @ 3.00GHz" description="" />
-  <keyValuePair key="cpu_speed" value="1200.000 MHz" description="" />
+  <keyValuePair key="cpu_name" value="Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz" description="" />
+  <keyValuePair key="cpu_speed" value="4780.151 MHz" description="" />
   <keyValuePair key="os_name" value="CentOS" description="" />
-  <keyValuePair key="os_release" value="CentOS release 6.10 (Final)" description="" />
-  <keyValuePair key="system_ram" value="135.000 GB" description="" />
-  <keyValuePair key="total_processors" value="2" description="" />
+  <keyValuePair key="os_release" value="CentOS Linux release 7.7.1908 (Core)" description="" />
+  <keyValuePair key="system_ram" value="16.000 GB" description="" />
+  <keyValuePair key="total_processors" value="1" description="" />
  </section>
  <section name="ip_statistics" level="1" order="3" description="">
   <section name="IP_Integrator/1" level="2" order="1" description="">
@@ -600,7 +600,7 @@
    <keyValuePair key="output_load" value="5.000000" description="" />
    <keyValuePair key="output_toggle" value="12.500000" description="" />
    <keyValuePair key="package" value="clg400" description="" />
-   <keyValuePair key="pct_clock_constrained" value="1.730000" description="" />
+   <keyValuePair key="pct_clock_constrained" value="1.190000" description="" />
    <keyValuePair key="pct_inputs_defined" value="20" description="" />
    <keyValuePair key="platform" value="lin64" description="" />
    <keyValuePair key="process" value="typical" description="" />
@@ -979,10 +979,10 @@
    <keyValuePair key="-verilog_define" value="default::[not_specified]" description="" />
   </section>
   <section name="usage" level="2" order="2" description="">
-   <keyValuePair key="elapsed" value="00:00:16s" description="" />
+   <keyValuePair key="elapsed" value="00:00:11s" description="" />
    <keyValuePair key="hls_ip" value="0" description="" />
-   <keyValuePair key="memory_gain" value="514.547MB" description="" />
-   <keyValuePair key="memory_peak" value="1973.570MB" description="" />
+   <keyValuePair key="memory_gain" value="514.539MB" description="" />
+   <keyValuePair key="memory_peak" value="1978.988MB" description="" />
   </section>
  </section>
  <section name="unisim_transformation" level="1" order="9" description="">
@@ -1040,7 +1040,8 @@
    <keyValuePair key="addrepositoryinfodialog_ok" value="1" description="" />
    <keyValuePair key="basedialog_apply" value="1" description="" />
    <keyValuePair key="basedialog_cancel" value="2" description="" />
-   <keyValuePair key="basedialog_ok" value="10" description="" />
+   <keyValuePair key="basedialog_ok" value="11" description="" />
+   <keyValuePair key="basedialog_yes" value="1" description="" />
    <keyValuePair key="basereporttab_rerun" value="3" description="" />
    <keyValuePair key="boardchooser_board_table" value="1" description="" />
    <keyValuePair key="cmdmsgdialog_ok" value="1" description="" />
@@ -1048,8 +1049,8 @@
    <keyValuePair key="constraintschooserpanel_add_files" value="1" description="" />
    <keyValuePair key="coretreetablepanel_core_tree_table" value="6" description="" />
    <keyValuePair key="expruntreepanel_exp_run_tree_table" value="1" description="" />
-   <keyValuePair key="filesetpanel_file_set_panel_tree" value="47" description="" />
-   <keyValuePair key="flownavigatortreepanel_flow_navigator_tree" value="10" description="" />
+   <keyValuePair key="filesetpanel_file_set_panel_tree" value="49" description="" />
+   <keyValuePair key="flownavigatortreepanel_flow_navigator_tree" value="11" description="" />
    <keyValuePair key="gettingstartedview_create_new_project" value="1" description="" />
    <keyValuePair key="gettingstartedview_open_project" value="1" description="" />
    <keyValuePair key="ipstatussectionpanel_upgrade_selected" value="2" description="" />
@@ -1103,7 +1104,7 @@
    <keyValuePair key="openproject" value="1" description="" />
    <keyValuePair key="regeneratersblayout" value="1" description="" />
    <keyValuePair key="reportipstatus" value="1" description="" />
-   <keyValuePair key="runbitgen" value="5" description="" />
+   <keyValuePair key="runbitgen" value="6" description="" />
    <keyValuePair key="saversbdesign" value="1" description="" />
    <keyValuePair key="settargetconstrfile" value="1" description="" />
    <keyValuePair key="showview" value="1" description="" />
@@ -1111,7 +1112,7 @@
    <keyValuePair key="upgradeip" value="2" description="" />
   </section>
   <section name="other_data" level="2" order="3" description="">
-   <keyValuePair key="guimode" value="2" description="" />
+   <keyValuePair key="guimode" value="3" description="" />
   </section>
   <section name="project_data" level="2" order="4" description="">
    <keyValuePair key="constraintsetcount" value="2" description="" />

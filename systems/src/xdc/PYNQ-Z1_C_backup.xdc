@@ -49,14 +49,14 @@ set_property -dict {PACKAGE_PIN Y17 IOSTANDARD LVCMOS33} [get_ports CAM_SCL]
 
 ## Pmod Header JB
 
-set_property -dict {PACKAGE_PIN W14 IOSTANDARD LVCMOS33} [get_ports {mipi_phy_if_data_hs_n[1]}]; # MIPI_LANE1_N
-set_property -dict {PACKAGE_PIN Y14 IOSTANDARD LVCMOS33} [get_ports {mipi_phy_if_data_hs_p[1]}]; # MIPI_LANE1_P
-set_property -dict {PACKAGE_PIN T11 IOSTANDARD LVCMOS33} [get_ports {mipi_phy_if_data_hs_n[0]}]; # MIPI_LANE0_N
-set_property -dict {PACKAGE_PIN T10 IOSTANDARD LVCMOS33} [get_ports {mipi_phy_if_data_hs_p[0]}]; # MIPI_LANE0_P
-set_property -dict {PACKAGE_PIN V16 IOSTANDARD LVCMOS33} [get_ports mipi_phy_if_clk_hs_n]; # MIPI_CLK_N
-set_property -dict {PACKAGE_PIN W16 IOSTANDARD LVCMOS33} [get_ports mipi_phy_if_clk_hs_p]; # MIPI_CLK_P
-#set_property -dict {PACKAGE_PIN V12 IOSTANDARD LVCMOS33} [get_ports { jb[6] }]; #IO_L4P_T0_34 Sch=jb_p[4]
-#set_property -dict {PACKAGE_PIN W13 IOSTANDARD LVCMOS33} [get_ports { jb[7] }]; #IO_L4N_T0_34 Sch=jb_n[4]
+#set_property -dict {PACKAGE_PIN W14 IOSTANDARD LVCMOS33} [get_ports {jb[0]}]
+#set_property -dict {PACKAGE_PIN Y14 IOSTANDARD LVCMOS33 } [get_ports {jb[1]}]; #IO_L8N_T1_34 Sch=jb_n[1]
+#set_property -dict {PACKAGE_PIN T11 IOSTANDARD LVCMOS33} [get_ports {jb[2]}]
+#set_property -dict {PACKAGE_PIN T10 IOSTANDARD LVCMOS33} [get_ports {jb[3]}]
+#set_property -dict {PACKAGE_PIN V16   IOSTANDARD LVCMOS33 } [get_ports { jb[4] }]; #IO_L18P_T2_34 Sch=jb_p[3]
+#set_property -dict {PACKAGE_PIN W16   IOSTANDARD LVCMOS33 } [get_ports { jb[5] }]; #IO_L18N_T2_34 Sch=jb_n[3]
+#set_property -dict {PACKAGE_PIN V12   IOSTANDARD LVCMOS33 } [get_ports { jb[6] }]; #IO_L4P_T0_34 Sch=jb_p[4]
+#set_property -dict {PACKAGE_PIN W13   IOSTANDARD LVCMOS33 } [get_ports { jb[7] }]; #IO_L4N_T0_34 Sch=jb_n[4]
 
 ## Audio Out
 
